@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(4, 4, 64);
+}
+
+.container {
+  display: flex;
+  width: 30%;
+  background-color: white;
+  justify-content: center;
+  box-shadow: 0px 10px 10px 0 rgb(74, 67, 67);
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.img {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
+
+span {
+  height: 400px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(108, 104, 104);
+}
+
+h2 {
+  margin-left: 100px;
+  font-size: 15px;
+  color: rgb(100, 106, 111);
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  height: 70px;
+  border: 1px solid rgb(230, 226, 226);
+  padding: 15px;
+  width: 300px;
+  cursor: pointer;
+}
+
+article:hover {
+  background-color: #1a063e;
+  color: #fff;
+}
+
+div {
+  margin-left: 25px;
+}
+
+p {
+  color: gray;
+  margin-top: -10px;
+}
+
+.list {
+  margin-left: 100px;
+}
+
+button {
+  color: white;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(4, 4, 64);
+
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.btn {
+  width: 340px;
+  margin-left: 30px;
+}
+h3{
+  margin-left: 80px;
+}
